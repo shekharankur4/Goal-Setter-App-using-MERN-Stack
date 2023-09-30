@@ -5,14 +5,15 @@ import Dashboard from './pages/Dashboard'
 import Login from './pages/Login'
 import Register from './pages/Register'
 
-
+import { Provider } from 'react-redux'
 
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import { store } from './app/store'
 
 function App() {
   return (
-    <>
+    <Provider store={store}>
       <Router>
       <div className='container'>
           <Header/>
@@ -24,7 +25,7 @@ function App() {
       </div>
       </Router>
       <ToastContainer/>
-    </>
+    </Provider>
   );
 }
 
