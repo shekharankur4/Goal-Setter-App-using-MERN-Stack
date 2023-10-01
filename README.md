@@ -1,9 +1,13 @@
 # Goal-Setter-App-using-MERN-Stack
 
 > Tech Stack<br>
+• MongoDb<br>
+• Express.js<br>
 • React.js<br>
+• Node.js<br>
 • Html<br>
 • CSS
+• Javascript<br>
 > 
 
 ![image](https://github.com/shekharankur4/Goal-Setter-App-using-MERN-Stack/assets/63545211/f6f49b32-71d1-47a0-9019-045757bae967)
